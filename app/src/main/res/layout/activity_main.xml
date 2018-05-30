@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/googleudacity"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id= "@+id/udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:fontFamily="sans-serif"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="90dp"/>
+
+    <TextView
+        android:id= "@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2465 Latham St"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="63dp"
+        android:layout_alignTop="@+id/udacity"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/ca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain View, CA 94043"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_alignTop="@id/street"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="650-555-5555"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/ca"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+
+
+</RelativeLayout>
